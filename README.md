@@ -36,7 +36,7 @@ Bu paket, CodeIgniter ile geliştirme yapacak olan yazılımcılar için hazırl
   - Sisteme yeni bir dil eklemek ya da mevcut dillerin kodlarını değiştirmek için yapmanız gerekenler aşağıda sıralanmıştır:
     - system/language dizini altına, yeni diliniz için bir klasör oluşturun ve diğer dizinlerdeki(english veya turkce dizinlerinden bir tanesinin) tüm dosyaları, bu dizine kopyalayın. Aksi durumda hata mesajlarını alamazsınız. 
     - application/core/MY_Lang.php dosyasının 25. satırında "'tr' => 'turkce'" kodunu göreceksiniz. Yeni bir dil eklemek isterseniz yine aynı yapıda olacak şekilde bir satır ekleyin. İlk değer URL'de görüntülenecek kısa kod(Örn. http://www.siteadresi.com/tr/home gibi), ikinci değer ise system/languages altındaki dizin ismidir.
-    - Veritabanınız üzerinde daha önceden oluşturduğunuz tabloların, yeni dil kodunuz prefix olacak şekilde birer örneğini oluşturun. Paketin içinden çıkan örnek veritabanı üzerinden gidecek olursak 'fr' => 'french' şeklinde bir ekleme yaptısanız, veritabanı tablolarınızdaki prefix "fr_" olmalıdır.
+    - Veritabanınız üzerinde daha önceden oluşturduğunuz tabloların, yeni dil kodunuz prefix olacak şekilde birer örneğini oluşturun. Paketin içinden çıkan örnek veritabanı üzerinden gidecek olursak 'fr' => 'french' şeklinde bir ekleme yaptıysanız, veritabanı tablolarınızdaki prefix "fr_" olmalıdır.
     
   - application/config/autoload.php üzerinden önyükleme yaptırılan kütüphaneler(library) aşağıda listelenmiştir:
     - session
