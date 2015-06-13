@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter <?php $ahmet = $this -> db -> get_where('demo', array('id' => '1'))->row('deger'); echo $ahmet; ?></title>
+	<title>Welcome to CodeIgniter</title>
 
 	<style type="text/css">
 
